@@ -9,8 +9,11 @@
         "ext-iconv": "*",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.6",
+        "doctrine/doctrine-fixtures-bundle": "^3.4",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.12",
+        "liorchamla/faker-prices": "^2.0",
+        "mbezhanov/faker-provider-collection": "^2.0",
         "phpdocumentor/reflection-docblock": "^5.3",
         "phpstan/phpdoc-parser": "^1.4",
         "sensio/framework-extra-bundle": "^6.1",
@@ -95,6 +98,7 @@
         }
     },
     "require-dev": {
+        "fakerphp/faker": "1.13",
         "symfony/debug-bundle": "5.4.*",
         "symfony/maker-bundle": "^1.0",
         "symfony/stopwatch": "5.4.*",
